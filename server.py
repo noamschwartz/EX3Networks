@@ -6,6 +6,7 @@ ICO = '.ico'
 EMPTY = '/'
 REDIRECT = "/redirect"
 
+#The main program function
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_ip = '0.0.0.0'
